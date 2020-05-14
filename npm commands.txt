@@ -1,0 +1,10 @@
+npm init
+npm install webpack --save-dev
+npm install jquery --save
+npm unistall jquery --save
+npm install live-server --global
+npm audit fix
+npm install webpack-cli --save-dev
+npm run dev																//dev is the name of the script in the webpack.config.js file with the value of "webpack --mode development"
+npm run build															//build is the name of the script in the webpack.config.js file woth the value of "webpack --mode production"
+			
