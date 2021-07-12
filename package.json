@@ -9,8 +9,7 @@
     "deploy": "gh-pages -d build",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "dev-server": "webpack-dev-server --mode development --open",
-    "start": "serve -s build",
+    "start": "webpack-dev-server --mode development --open",
     "heroku-postbuild": "npm run build"
   },
   "author": "Arnav Kaushal",
