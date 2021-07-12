@@ -8,9 +8,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "webpack --mode development",
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open",
-    "heroku-postbuild": "npm run start"
+    "build": "webpack-dev-server --mode development --open",
+    "start": "webpack --mode production",
+    "heroku-postbuild": "npm run build"
   },
   "author": "Arnav Kaushal",
   "license": "ISC",
